@@ -1,0 +1,42 @@
+.header {
+    display: grid;
+    grid-template-columns: auto 18cm;
+    background-color: rgb(29, 130, 224);
+    height: 2cm;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 1.6rem;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    width: 17cm;
+    justify-content: center;
+}
+
+.navbar ul {
+    width: 16cm;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-left: 0.5cm;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    transform: scale(1.2);
+    transition: 1s all ease-in;
+    color: black;
+}

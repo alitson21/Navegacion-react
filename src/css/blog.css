@@ -1,0 +1,68 @@
+.blog {
+    height: 100vh;
+}
+
+.blog h2 {
+    margin-top: 1cm;
+    text-align: left;
+    margin-left: 3cm;
+    margin-bottom: 1cm;
+}
+
+.blog p {
+    text-align: left;
+    margin-left: 3cm;
+}
+
+.blog .insert-blog {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.blog .insert-blog button {
+    width: 5cm;
+    margin-left: 1cm;
+}
+
+.blog .insert-blog button:hover {
+    background-color: rgb(22, 160, 22);
+    transition: 1s all;
+}
+
+.blog .listado-comentarios {
+    padding-top: 1cm;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.blog .listado-comentarios h3 {
+    font-size: 1.2rem;
+    text-decoration: underline;
+    margin-bottom: 1cm;
+}
+
+.blog .estructura-comentario {
+    display: grid;
+    grid-template-columns: auto 3cm 3cm;
+    gap: 0.3cm;
+}
+
+.blog .estructura-comentario b {
+    margin-bottom: 0.5cm;
+}
+
+.blog .estructura-comentario button {
+    height: 1cm;
+}
+
+.blog .estructura-comentario .visto:hover {
+    background-color: rgb(27, 173, 27);
+    transition: 1s all;
+}
+
+.blog .estructura-comentario .eliminar:hover {
+    background-color: rgb(27, 173, 27);
+    transition: 1s all;
+}

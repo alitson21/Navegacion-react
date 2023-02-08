@@ -1,0 +1,25 @@
+.home {
+    text-align: center;
+    width: 70%;
+    margin: 1cm auto;
+    border-right: solid 1px gray;
+    box-shadow: 1px 2px gray;
+    border-left: solid 1px gray;
+    padding-bottom: 1cm;
+}
+
+.home h1 {
+    text-shadow: 2px 2px rgb(59, 125, 224);
+    color: rgb(223, 216, 216);
+}
+
+.home h3 {
+    margin-right: 20cm;
+}
+
+.home .texto {
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 150%;
+}
